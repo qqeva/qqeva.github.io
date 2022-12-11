@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>主页</title>
+<meta name="description" content="应用试客官方下载">
+<meta name="keywords" content="便宜VPS,便宜主机,应用试客,试玩星,多多红包">
+<link rel="shortcut icon" href="/favicon.ico">
+<style>
+*,:after,:before{box-sizing:border-box;outline:0}
+body,html{font-family:"SF Pro SC","SF Pro Text","SF Pro Icons","AOS Icons","PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei",微软雅黑,STHeiti,华文细黑,sans-serif;line-height:1;text-align:center;letter-spacing:1px}
+html{font-size:16px}
+a{text-decoration:none;color:#fff}
+.container{position:relative;width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column;text-align:left;padding:50px 0;overflow:hidden}
+.c1{background-image:linear-gradient(1deg,#f35d44,#f35c44 51%,#dd0f3a);color:#fff}
+.c2{background-color:#fff;color:#666;padding-top:0}
+.content{width:100%;max-width:1024px;display:flex;justify-content:center;padding:0 100px;z-index:1}
+.c2 .content{flex-direction:column}
+.iphone_img{max-width:256px;max-height:512px}
+.right{max-width:518px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.logo_img{max-width:350px;width:80%;margin-bottom:46px}
+.download_content{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:30px 0 20px}
+.download_content .btn{width:40%;max-width:170px;height:45px;line-height:45px;text-align:center;margin:7.5px 9px;border:2px outset #f79474;border-radius:5px;background:rgba(255,255,255,.3);color:#fff;font-size:.9375em;cursor:pointer;position:relative}
+.download_content .btn:hover{background:#ff6ea1;color:#fff}
+.icon{width:20px;height:20px;display:inline-block;vertical-align:middle;margin-right:2px;background-size:cover}
+.android{background-image:url()}
+.ios{background-image:url()}
+.QandA{position:relative;display:flex;margin-top:30px;margin-bottom:15px}
+.QandA>div{width:100%;display:flex}
+.QandA span{margin-right:32px;display:inline-block;vertical-align:top}
+.QandA span:first-of-type{width:30px;color:#e85151;font-size:2.25rem}
+.QandA .btn{position:absolute;right:0;top:0;width:100px;height:32px;line-height:32px;color:#e85151;border:1px solid #f7cdcd;font-size:.9375rem;text-align:center;border-radius:50px}
+h1{font-size:3rem;font-weight:600;letter-spacing:2.8px;margin-bottom:20px}
+h2{font-size:1.2rem;letter-spacing:1.2px;font-weight:500}
+p{font-size:.8rem;letter-spacing:1.2px;line-height:1.6}
+.c2 .main_title{display:inline-block;position:relative;color:#e85151;border-bottom:3px solid #d9d9d9;padding-bottom:15px;z-index:1}
+.c2 .main_title:after{content:'';position:absolute;width:150px;display:block;bottom:-3px;left:0;border-bottom:3px solid #e85151}
+.c2 h2{font-size:2.25rem}
+.c2 h3{font-size:1.5rem}
+.c2 h2 span{color:#666;font-size:13px;position:absolute;top:0;left:160px;line-height:1.4}
+.qu{font-size:1.25rem;font-weight:500;margin-bottom:7px}
+.ans{line-height:2.13}
+.line{background-color:#eee;height:1px}
+.ground_img{width:100%;background-color:#f35d44}
+footer{width:100%;height:200px;background-image:url();background-repeat:no-repeat;background-position:center;background-size:cover}
+footer img{width:168px}
+footer .footer{display:flex;justify-content:flex-end;flex-direction:column;align-items:center;width:100%;height:100%;padding-bottom:40px;color:#fff;font-weight:300}
+footer p{font-size:1rem;text-align:left;line-height:1.5}
+.fixed{position:fixed;display:none;flex-direction:column;justify-content:center;align-items:center;top:0;left:0;width:100%;height:100vh;background-color:rgba(0,0,0,.9);z-index:100}
+.fixed.show{display:flex}
+.fixed p{width:100%;color:#e85151;font-size:36px;margin-bottom:20px}
+.fixed p{width:100%;color:#e85151;font-size:36px;margin-bottom:20px}
+.fixed div{color:#fff;margin-top:30px;max-width:350px;line-height:1.333}
+.incap_page-tooltip{display:none}
+@media (max-width:992px){.content{padding:0 50px}
+}
+@media (max-width:767px){html{font-size:14px}
+.iphone_img{display:none}
+.right{width:100%;margin-left:0}
+.img_content>div{margin:0 10px}
+.c2 h2 span{position:initial;display:block;margin-top:10px}
+}
+@media (max-width:640px){.container{padding:30px 0}
+.c2{padding-bottom:0}
+.content{padding:0 25px}
+.img_content{flex-direction:column;margin-top:25px}
+.img_content>div{margin:10px 0}
+.bank_content img{width:100%}
+.bank_content img:first-of-type{margin-right:0;margin-bottom:15px}
+footer{background-image:url();background-position:bottom;height:150px;background-size:contain}
+footer .footer{padding-bottom:10px}
+.android{background-image:url()}
+.ios{position:relative;background-image:url()}
+.QandA{flex-wrap:wrap}
+.QandA span{margin-right:20px}
+.QandA .btn{position:initial;margin-top:10px;margin-left:45px}
+}
+@media (max-width:320px){html{font-size:12px}
+.content{padding:0 10px}
+.img_content{flex-wrap:wrap}
+}
+</style>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+    <div class="container c1">
+        <div class="content">
+            <div class="right">
+                <h2></h2>
+                <div class="download_content">
+                    <a class="btn pop android4" href="https://curl.qcloud.com/LxCuaEyR" target="_blank" rel="nofollow">腾讯云优惠</a>
+                    <a class="btn pop ios4" href="https://wx.shike.com/i/UVmyjJE" target="_blank" rel="nofollow">应用试客</a>
+                    <a class="btn pop android3" href="http://im.imoneywalk.com/ilanding/share?promote=12484698" target="_blank" rel="nofollow">爱钱试玩</a>
+                    <a class="btn pop ios3" href="https://my.racknerd.com/aff.php?aff=5534&pid=620" target="_blank" rel="nofollow">便宜年付VPS</a>
+                    <a class="btn pop android2" href="https://diantao.cn/callapp-mid-center/random1/home.html?bizCode=peopleShareTask&shareToken=DqeGAD2DbUe5&strategyCode=person2person&inviteCode=LR7PSClR&tl_tao_password_direct=true" target="_blank" rel="nofollow">淘宝点淘</a>
+                    <a class="btn pop ios2" href="https://ljqxmyt.com/theodore?u=10923324&referer_code=bc87e230cd&v=20220217" target="_blank" rel="nofollow">试玩星</a>
+                    <a class="btn pop android1" href="https://billing.raksmart.com/whmcs/aff.php?aff=5102" target="_blank" rel="nofollow">CheapVPS</a>
+                    <a class="btn pop ios1" href="http://www.ddhbtop.cn/?r=821057727&d=20220114&en=miaomiaoxiche&t=link&m=1&bt=1" target="_blank" rel="nofollow">多多红包</a>         
+                    <a class="btn pop android0" href="https://my.racknerd.com/aff.php?aff=5534" target="_blank" rel="nofollow">美国主机</a>
+                    <a class="btn pop ios0" href="https://my.frantech.ca/aff.php?aff=4936" target="_blank" rel="nofollow">便宜主机</a>                    
+                </div>
+                <p></p>
+                <p>请您务必牢记 (按 Ctrl + D 可以收藏) 本网址!</p>
+            </div>
+        </div>
+        <div class="sky"></div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p></p>
+            <p>Copyright © 2022 All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-220547542-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-220547542-1');
+</script>
+</body>
+</html>
